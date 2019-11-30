@@ -1,0 +1,16 @@
+
+body {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+form {
+    max-width: 50%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea, 
+select {
+    border: none;
+}
