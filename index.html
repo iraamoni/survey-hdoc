@@ -30,8 +30,8 @@
         </fieldset>
 
         <fieldset>
-            <label for="job">Which option best describes your current role?</label>
-                <select name="role" id="dropdown">
+            <label for="">Which option best describes your current role?</label>
+                <select name="" id="dropdown">
                     <option value="student">Student</option>
                     <option value="full_time">Full time</option>
                     <option value="part_time">Part time</option>
@@ -41,23 +41,29 @@
         </fieldset>
 
         <fieldset>
-            <label for="job">
+            <label for="">
                 Would you recommend freeCodeCamp to a friend?
             </label>
 
-            <input type="radio" name="name" value="definitely">
-            <label for="definitely">Definitely</label>
+            <section>
+                <input type="radio" name="name" value="definitely">
+                <label class="light" for="definitely">Definitely</label>
+            </section>
 
-            <input type="radio" name="name" value="maybe">
-            <label for="maybe">Maybe</label>
+            <section>
+                <input type="radio" name="name" value="maybe">
+                <label class="light" for="maybe">Maybe</label>
+            </section>
 
-            <input type="radio" name="name" value="not_sure">
-            <label for="not_sure">Not sure</label>
-
+            <section>
+                <input type="radio" name="name" value="not_sure">
+                <label class="light" for="not_sure">Not sure</label>
+            </section>
+            
         </fieldset>
 
         <fieldset>
-            <label for="job">
+            <label for="">
                 What is your favorite feature of freeCodeCamp?
             </label>
 
@@ -75,14 +81,15 @@
             </label>
 
             <input type="checkbox" value="front-end-projects" name="survey_improvement">
-            <label for="front-end-projects">Front-end Projects</label></br>
+            <label class="light" for="front-end-projects">Front-end Projects</label></br>
 
             <input type="checkbox" value="back-end-projects" name="survey_improvement">
-            <label for="back-end-projects">Back-end Projects</label></br>
+            <label class="light" for="back-end-projects">Back-end Projects</label></br>
 
             <input type="checkbox" value="data_visualisation" name="survey_improvement">
-            <label for="data_visualisation">Data Visualization</label></br>
+            <label class="light" for="data_visualisation">Data Visualization</label></br>
         </fieldset>
+
         <fieldset>
                 <label for="comments_or_suggestions">Any comments or suggestions?</label>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
